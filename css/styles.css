@@ -1,0 +1,185 @@
+body {
+    font-family: "Karla"; 
+    background-color: hsl(218, 22%, 85%);
+
+  
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+h2 {
+    color: hsl(71, 73%, 50%);
+    font-size: 16px; 
+}
+
+p {
+    margin: 2px;
+    font-size: 14px;
+
+}
+
+/*box for all */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+    padding-top: 175px;
+    color: #fff;
+    padding-bottom: 25px;
+
+}
+
+/*heading box*/
+.heading {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 1;
+    padding: 15px 0 30px 35px;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color:hsl(218, 22%, 67%);
+    margin: 0 -20px;
+
+}
+
+/*subscription box*/
+
+.subscription {
+    grid-column: 3;
+    grid-row: 2;
+    padding: 25px 35px;
+    background-color: hsl(179, 75%, 38%);
+    border-bottom-left-radius: 8px;
+    margin-left: -20px;
+   
+  
+}
+
+/*dollar signs and text paragraph*/
+.dollar {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    vertical-align: middle;
+  
+    
+}
+
+/*Why Us box*/
+.whyus {
+    grid-column: 4;
+    grid-row: 2;
+    padding: 25px 35px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-right-radius: 8px;
+    margin-right: -20px;
+   
+}
+/*Why Us paragraph style*/
+.whyus p  {
+    line-height: 1.5rem;
+    font-size: 14px;
+    
+}
+
+/*Click Button styles*/
+.myButton {
+    font-family: Karla;
+    font-weight: 700;
+    color: hsl(218, 22%, 98%);
+    font-size: 16px;
+    position: relative;
+    padding: 12px 65px;
+    border-radius: 5px;
+    border: 0 solid #C0DF34;
+    background: #C0DF34;
+    margin-top: 20px;
+    
+
+  }
+  /*Button at hover -style (optional)*/
+  .myButton:hover {
+    background: hsl(218, 22%, 67%);
+    color: #fff;
+  }
+
+
+/*Code for smaller screen*/
+@media only screen and (max-width: 1440px) {
+
+    h3 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .wrapper {
+        display: inline-block;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(150px, auto);
+        padding-top: 100px;
+        color: #fff;
+        padding-bottom: 5px;
+        font-size: 10px;
+        margin: 0 8rem;
+    
+    }
+
+    .heading {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: #fff;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        color:hsl(218, 22%, 67%);
+       
+    }
+
+    .subscription {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: hsl(179, 75%, 38%);
+        margin-right: -20px;
+        border-radius: 0;
+    }
+
+    .whyus {
+        grid-column: 1;
+        grid-row: 3;
+        padding: 10px 25px;
+        background-color: hsl(179, 62%, 43%);
+        margin-left: -20px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .myButton {
+        font-family: Karla;
+        font-weight: 700;
+        color: hsl(218, 22%, 98%);
+        font-size: 16px;
+        position: relative;
+        padding: 12px 100px;
+        border-radius: 5px;
+        border: 0 solid #C0DF34;
+        background: #C0DF34;
+        margin-top: 20px;
+        
+
+    }
+    .myButton:hover {
+        background: hsl(218, 22%, 67%);
+        color: #fff;
+    }
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 15px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
