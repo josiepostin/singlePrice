@@ -109,7 +109,7 @@ p {
 
 
 /*Code for smaller screen*/
-@media (max-width: 1440px) and (min-width: 375px) {
+@media (max-width: 1440px) {
 
     h3 {
         font-size: 16px;
