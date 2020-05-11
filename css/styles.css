@@ -156,15 +156,16 @@ p {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         
+        
     }
 
     .myButton {
         font-family: Karla;
         font-weight: 700;
         color: hsl(218, 22%, 98%);
-        font-size: 16px;
+        font-size: 12px;
         position: relative;
-        padding: 12px 100px;
+        padding: 10px 100px;
         border-radius: 5px;
         border: 0 solid #C0DF34;
         background: #C0DF34;
