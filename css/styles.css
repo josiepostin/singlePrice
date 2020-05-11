@@ -1,6 +1,7 @@
 body {
     font-family: "Karla"; 
-    background-color: hsl(218, 22%, 85%);
+    background: linear-gradient(hsl(218, 22%, 85%), hsl(218, 22%, 90%)), url("../../images/background-img.png");
+    
 
   
 }
