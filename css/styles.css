@@ -1,8 +1,7 @@
 
 body {
     font-family: "Karla"; 
-    background: linear-gradient(hsl(218, 22%, 85%), hsl(218, 22%, 90%)), url("../images/background-img.png");
-    
+    background-color: hsl(218, 22%, 85%);
 
   
 }
@@ -96,7 +95,7 @@ p {
     color: hsl(218, 22%, 98%);
     font-size: 16px;
     position: relative;
-    padding: 12px 65px;
+    padding: 8px 80px;
     border-radius: 5px;
     border: 0 solid #C0DF34;
     background: #C0DF34;
@@ -112,6 +111,7 @@ p {
 
 
 /*Code for smaller screen*/
+
 @media (min-width: 375px){
 
     h3 {
